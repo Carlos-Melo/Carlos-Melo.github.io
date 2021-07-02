@@ -132,13 +132,14 @@ section {
     text-align: center;
 }
 
-.about button{
+.about a{
     align-self: center;
     background-color: #20232a;
     border: 1px solid #007bff;
     border-radius: 5px;
     padding: 10px 16px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .experiece div, .education div, .expertise > div{
