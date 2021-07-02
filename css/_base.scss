@@ -1,0 +1,42 @@
+$primary-color: #007bff;
+$back-color: #282c34;
+$back2-color: #20232a;
+$text-color: #e0e0e0;
+
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: $text-color;
+}
+
+main {
+    width: 100%;
+    display: flex;
+}
+
+body {
+   background-color: $back2-color;
+}
+
+section {
+    margin-left: 250px;
+    width: 100%;
+    background-color: $back2-color;
+    
+    .content {
+        width: 90%;
+        margin: auto;
+        padding: 20px 50px;
+        background-color: $back-color;
+    
+        div div {
+            margin-left: 25px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    }
+}
+
