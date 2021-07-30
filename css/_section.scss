@@ -49,7 +49,8 @@
 
 .experiece,
 .education,
-.expertise {
+.expertise,
+.certificado {
     > div {
         border: 1px solid $text-color;
         border-radius: 3px;
@@ -128,6 +129,10 @@
             }
         }
     }
+}
+
+.certificado {
+    margin-bottom: 50px;
 }
 
 [data-anime] {
