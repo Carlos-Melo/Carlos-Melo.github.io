@@ -13,8 +13,9 @@ $text-color: #e0e0e0;
 }
 
 main {
-    width: 100%;
+    max-width: 100%;
     display: flex;
+
 }
 
 body {
@@ -22,8 +23,8 @@ body {
 }
 
 section {
-    margin-left: 250px;
     width: 100%;
+    padding-left: 250px;
     background-color: $back2-color;
     
     .content {
@@ -33,7 +34,8 @@ section {
         background-color: $back-color;
     
         div div {
-            margin-left: 25px;
+            width: 100%;
+            margin: auto;
             margin-top: 30px;
             margin-bottom: 30px;
         }

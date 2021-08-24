@@ -7,7 +7,7 @@
     }
 
     section {
-        margin: 50px 10px 0 10px;
+        padding: 50px 10px 0 10px;
     }
 
     .sidebar {
@@ -46,7 +46,7 @@
 
 @media screen and (max-width: 500px) {
     section {
-        margin: 50px 0 0 0;
+        padding: 50px 0 0 0;
 
         .content {
             width: 100%;
