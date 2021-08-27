@@ -78,10 +78,6 @@ section .content div div {
   margin-top: 15px;
 }
 
-.sidebar ul li a {
-  text-decoration: none;
-}
-
 .sidebar ul li i {
   font-size: 20px;
   padding-right: 10px;
